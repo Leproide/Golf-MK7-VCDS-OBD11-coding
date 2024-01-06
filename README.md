@@ -52,6 +52,13 @@ Tested and confirmed FW versions: P0120D, P0123D, E0220D, P0225D, P0227D, E0231D
 
 On MST2_XX_AU* firmwares, SmartPhone Interface (CarPlay/AndroidAuto) will not work as /extbin/apps/bin folder does not contain androdauto, carplay etc binaries.
 
+**Enable Sport HMI 00060400**
+1. Module 5F - Information Electronics 1. Code (20103)
+2. Adaptation
+3. Select Car Function Adaptations Gen 2
+4. Enable Menu display SportHMI
+5. Enable Menu display SportHMI over threshold
+
 **Removing DTC error 1555 (B201A fault)**
 
 After installation you will see DTC 1555 also known asB201A fault code in block 5F. To remove/clear:
