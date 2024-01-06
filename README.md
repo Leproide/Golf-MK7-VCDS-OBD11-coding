@@ -57,7 +57,7 @@ On MST2_XX_AU* firmwares, SmartPhone Interface (CarPlay/AndroidAuto) will not wo
 After installation you will see DTC 1555 also known asB201A fault code in block 5F. To remove/clear:
 1. 5F → adaptation → channel: Confirmation of installation change → read
 2. Copy current key value.
-3. Paste key value into the I’m So XORy tool: http://mib-helper.com/im-so-xory/
+3. Paste key value into the I’m So XORy tool: http://mib-helper.com/im-so-xory/ (or you can use XORechner-XTR.exe in this repo)
 4. Generate new key.
 5. 5F → adaptation → channel: Confirmation of installation change → paste new key → save
 6. 5F → faults → clear
