@@ -31,3 +31,12 @@ Tested and confirmed FW versions: P0120D, P0123D, E0220D, P0225D, P0227D, E0231D
 
 1. Format quality 4Gb+ SD card in FAT32 with the smallestcluster size possible ( usually4096 bytes)
 2. Unpack [activator with autobackup](https://github.com/Leproide/Golf-MK7-VCDS-OBD11-coding/raw/main/MST2_Activator_Made_By_Congo_and_Duke_v3.0_with_Autobackup_by_lprot.7z "activator with autobackup") onto the SD card and make sure metainfo2.txt is in the root.
+3.Turn the ignition on (VERY IMPORTANT! Without ignition on, the unit’s power will be automatically switched off after 30 minutes. Make sure the car battery is well charged or connect the charger!)
+
+Insert SD card into SD1 slot,
+
+Hold MENU button for 3 seconds to enter the Service Mode,
+
+Select Software update/versions,
+
+Select Update → SD card → MST2 Activator by Congo and Duke → Start → Next,
