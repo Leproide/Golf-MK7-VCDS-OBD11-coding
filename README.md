@@ -16,3 +16,19 @@ https://t.me/vagcodingitalia
 - On Audi use corresponding button combo to open RED menu and then look into Versions info
 
 Make sure train starts with MST2 and ends with D. For example: MST2_EU_VW_P0891D. Only in this case, everything below applies to your unit!
+
+![image](https://github.com/Leproide/Golf-MK7-VCDS-OBD11-coding/assets/8448713/5d6fafc3-2f8e-4806-be29-49812f2f9f17)
+
+**If your SW Train ends with T (for example MST2_EU_VW_ZR_P0254T) your unit is Technisat/Preh for which you need MIB STD2 PQ/ZR Toolbox).**
+
+Supported firmwares (trains)
+
+All Audi and VW firmwares of any region with train matching pattern MST2_xx_xx_xxxxxD
+
+Tested and confirmed FW versions: P0120D, P0123D, E0220D, P0225D, P0227D, E0231D, P0314D, P0504D, P0628D, P0631D, P0635D, P0642D, P9122D, P0867D, P0870D, P0876D, P0890D, P0891D, P0879D, P0883D
+
+**Installation**
+
+1. Format quality 4Gb+ SD card in FAT32 with the smallestcluster size possible ( usually4096 bytes)
+2. Unpack [[1]][activator] onto the SD card and make sure metainfo2.txt is in the root.
+[activator]: https://github.com/Leproide/Golf-MK7-VCDS-OBD11-coding/raw/main/MST2_Activator_Made_By_Congo_and_Duke_v3.0_with_Autobackup_by_lprot.7z "activator with autobackup"
