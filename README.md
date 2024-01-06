@@ -35,13 +35,21 @@ Tested and confirmed FW versions: P0120D, P0123D, E0220D, P0225D, P0227D, E0231D
 4. Insert SD card into SD1 slot,
 
 ![immagine](https://github.com/Leproide/Golf-MK7-VCDS-OBD11-coding/assets/8448713/42a59a91-9ec9-42c0-9c01-5335efb1f113)
+
 5. Hold MENU button for 3 seconds to enter the Service Mode,
+
 6. Select Software update/versions,
+
 7. Select Update → SD card → MST2 Activator by Congo and Duke → Start → Next,
+
 8. Wait. During the installation the unit will reboot 2 times. If you will see green window “Completed succsessfully” press and hold power on button to reboot the unit.
+
 9. When the process is done you will see summary screen. Press Back in the upper-right corner,
+
 10. When you see Version back documentation screen, press Cancel,and unit will reboot in normal mode.
+
 11. If you install the version with autobackup, you will see green "Successfully completed” window. Just long press the power button to reboot the unit.
+
 12. You can check log.txt in the root of SD card and if installed autobackup version - save backup folder to the safe place 😀
 
 13. Ativation of App-Connect with VCDS/OBD11 etc...
