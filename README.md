@@ -49,3 +49,15 @@ Tested and confirmed FW versions: P0120D, P0123D, E0220D, P0225D, P0227D, E0231D
 5F → Adaptation  → vehicle configuration → Apple DIO → enable CarPlay
 
 5F → Adaptation  → vehicle configuration → Google GAL → enable Android Auto 
+
+On MST2_XX_AU* firmwares, SmartPhone Interface (CarPlay/AndroidAuto) will not work as /extbin/apps/bin folder does not contain androdauto, carplay etc binaries.
+
+**Removing DTC error 1555 (B201A fault)**
+
+After installation you will see DTC 1555 also known asB201A fault code in block 5F. To remove/clear:
+1. 5F → adaptation → channel: Confirmation of installation change → read
+2. Copy current key value.
+3. Paste key value into the I’m So XORy tool: http://mib-helper.com/im-so-xory/
+4. Generate new key.
+5. 5F → adaptation → channel: Confirmation of installation change → paste new key → save
+6. 5F → faults → clear
